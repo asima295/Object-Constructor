@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Object Constructors</title>
+    <link rel="stylesheet" href="JS Object Constructors.css">
+    <link rel="stylesheet" href="all.css">
+</head>
+
+<body>
+    <div class="d1">
+        <img src="w3.png" alt="">
+        <div id="d1d1">
+            <div id="d1d1a1"><a href="#">Tutorials</a></div>
+            <div id="d1d1a1"><a href="#">Exrcises</a></div>
+            <div id="d1d1a1"><a href="#">Certifiates</a></div>
+            <div id="d1d1a1"><a href="#">Services</a></div>
+        </div>
+        <input type="search" name="search" id="s1" placeholder="Search...">
+        <div id="d1d2">
+            <div id="get"><a href="#">Plus</a></div>
+            <div id="get"><a href="#">Spaces</a></div>
+            <div id="get"><a href="#">Get Certified</a></div>
+            <div id="login">
+                <a href="#">Sign Up</a>
+                <a href="#">Log in</a>
+            </div>
+        </div>
+    </div>
+    <div class="d2">
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#" style="background-color: rgb(25, 189, 126);">JAVASCRIPT</a>
+        <a href="#">SQL</a>
+        <a href="#">PYTHON</a>
+        <a href="#">JAVA</a>
+        <a href="#">PHP</a>
+        <a href="#">HOW TO</a>
+        <a href="#">W3.CSS</a>
+        <a href="#">C</a>
+        <a href="#">C++</a>
+        <a href="#">C#</a>
+        <a href="#">BOOTSTRAP</a>
+        <a href="#">REACT</a>
+        <a href="#">MYSQL</a>
+        <a href="#">JQUERY</a>
+        <a href="#">EXCEL</a>
+        <a href="#">XML</a>
+        <a href="#">DLANGO</a>
+        <a href="#">NUMPY</a>
+        <a href="#">PANDAS</a>
+    </div>
+
+    <div class="d3">
+        <h2>JS Tutoril</h2>
+        <a href="main.html">JS HOME</a>
+        <a href="introduction.html">JS Introduction</a>
+        <a href="">JS Where To</a>
+        <a href="">JS Output</a>
+        <a href="">JS Statements</a>
+        <a href="">JS Syntax</a>
+        <a href="">JS Comments</a>
+        <a href="">JS Variables</a>
+        <a href="">JS Let</a>
+        <a href="">JS Const</a>
+        <a href="">JS Operators</a>
+        <a href="">JS Arithmetic</a>
+        <a href="">JS Assignment</a>
+        <a href="">JS Data Types</a>
+        <a href="">JS Functions</a>
+        <a href="">JS Objects</a>
+        <a href="">JS Object Properties</a>
+        <a href="">JS Object Methods</a>
+        <a href="">JS Oblect Display</a>
+        <a href="JS Object Constructors.html" style="background-color: rgb(2, 138, 43); color: white;">JS Object
+            Constructors</a>
+        <a href="">JS Events</a>
+        <a href="">JS strings</a>
+        <a href="">JS String Methode</a>
+        <a href="">JS String Search</a>
+        <a href="">JS String Templates</a>
+        <a href="">JS Number</a>
+        <a href="">JS Biglnt</a>
+        <a href="">JS Number Methods</a>
+        <a href="">JS Number Properties</a>
+        <a href="">JS Arrays</a>
+        <a href="">JS Array Methods</a>
+        <a href="">JS Array Search</a>
+        <a href="">JS Array Sort</a>
+        <a href="">JS Array Iteration</a>
+        <a href="">JS Array Const</a>
+        <a href="">JS Dates</a>
+        <a href="">JS Date Formats</a>
+        <a href="">JS Date Get Methods</a>
+        <a href="">JS Deat Set Methods</a>
+        <a href="">JS Math</a>
+        <a href="">JS Random</a>
+        <a href="">JS Booleans</a>
+        <a href="">JS Comparisons</a>
+        <a href="">JS If Else</a>
+        <a href="">JS Switch</a>
+        <a href="">JS Loop For</a>
+        <a href="">JS Loop For In</a>
+        <a href="">JS Loop For Of</a>
+        <a href="">JS Loop While</a>
+        <a href="">JS Break</a>
+        <a href="">JS Iterables</a>
+        <a href="">JS Sets</a>
+        <a href="">JS Set Methods</a>
+        <a href="">JS Map</a>
+        <a href="">JS Map Methods</a>
+        <a href="">JS Type of</a>
+        <a href="">JS Type Conversion</a>
+        <a href="">JS Destructring</a>
+        <a href="">JS Bitwise</a>
+        <a href="">JS RegExp</a>
+        <a href="">JS Precedence</a>
+        <a href="">JS Errors</a>
+        <a href="">JS Scope</a>
+        <a href="">JS Hoisiting</a>
+        <a href="">JS Strict Mode</a>
+        <a href="">JS this Keyword</a>
+        <a href="">JS Arrow Function </a>
+        <a href="">JS Classes</a>
+        <a href="">JS Modules</a>
+        <a href="">JS JSON</a>
+        <a href="">JS Debugging</a>
+        <a href="">JS style Guide</a>
+        <a href="">JS Mistakes</a>
+        <a href="">JS Performance</a>
+        <a href="">JS Reserved Words</a>
+
+    </div>
+
+    <div class="d4">
+        <div id="d4d1">
+            <h1>JavaScript Object Constructors</h1>
+            <input type="button" value="< Previous" href="main.html" id="d4b1">
+            <input type="button" value="Next >" href="" id="d4b2">
+        </div>
+
+        <div id="d4d2">
+            <h2 style="font-size: 35px;">Object Constructor Functions</h2>
+            <p>
+                Sometimes we need to create many objects of the same.<br><br>
+                To create an object type we use an object constructor function. <br><br>
+                It is considered good practice to name constructor functions with an upper-case first letter.<br><br>
+            </p>
+        </div>
+        <div id="d4d4">
+            <h3>Object Type Person</h3>
+            <div class="d4d4" style="border-left: 3px solid green;">
+                <p> <span id="sp1">function </span>Person(first, last, age, eye) { <br>
+                    <span id="sp1"> this</span>.firstName = first;<br>
+                    <span id="sp1"> this</span>.lastName = last;<br>
+                    <span id="sp1"> this</span>.age = age;<br>
+                    <span id="sp1"> this</span>.eyeColor = eye;<br>
+                    }<br>
+                </p>
+            </div>
+        </div>
+        <div id="d4d7">
+            <h3>Note:</h3>
+            <p>In the constructor function,<span id="sp2"> this</span> has no value.
+                The value of <span id="sp2">this</span> will become the new object when a new object is created.</p>
+            <h2>See Also:</h2>
+            <a href="">The JavaScript <b>this</b>Tutoril</a>
+        </div>
+        <div id="d4d3">
+            <p>Now we can use <span id="sp2">new Person()</span> to create many new Person objects:</p>
+        </div>
+        <div id="d4d6">
+            <h3>Example</h3>
+            <div class="d4d4" style="border-left: 3px solid green;">
+                <p>
+                    <span id="sp1">const</span> myFather =<span id="sp1"> new</span> Person(<span
+                        id="sp3">"John"</span>,<span id="sp3"> "Doe"</span>, <span id="sp2">50</span>, <span
+                        id="sp3">"blue"</span>); <br>
+                    <span id="sp1"> const</span> myMother = <span id="sp1">new</span> Person(<span
+                        id="sp3">"Sally"</span>,<span id="sp3"> "Rally"</span>, <span id="sp2"> 48</span>,<span
+                        id="sp3"> "green"</span>);<br>
+                    <span id="sp1"> const</span> mySister =<span id="sp1"> new </span>Person(<span
+                        id="sp3">"Anna"</span>,<span id="sp3"> "Rally"</span>, <span id="sp2">18</span>,<span id="sp3">
+                        "green"</span>);<br><br>
+                    <span id="sp1"> const </span>mySelf = <span id="sp1">new</span> Person(<span
+                        id="sp3">"Johnny"</span>,<span id="sp3"> "Rally"</span>, <span id="sp2">22</span>,<span
+                        id="sp3"> "green"</span>);<br>
+                </p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_myfirst" target="_blank" id="d4b5">Try it
+                Yourself</a>
+        </div>
+        <hr>
+        <div id="d4d3">
+            <h1>Property Default Values</h1>
+            <p>A <b> value</b> given to a property will be a <b>default value</b> for all objects created by the
+                constructor:</p>
+        </div>
+        <div id="d4d8">
+            <h3>Example</h3>
+            <div class="d4d4" style="border-left: 3px solid green;">
+                <p>
+                    <span id="sp1"> function</span> Person(first, last, age, eyecolor) { <br>
+                    <span id="sp1"> this</span>.firstName = first;<br>
+                    <span id="sp1"> this</span>.lastName = last;<br>
+                    <span id="sp1">this</span>.age = age;<br>
+                    <span id="sp1">this</span>.eyeColor = eyecolor;<br>
+                    <span id="sp1">this</span>.nationality = <span id="sp3"> "English"</span>;<br>
+                    }<br>
+                </p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_myfirst" target="_blank" id="d4b5">Try it
+                Yourself</a>
+        </div>
+        <hr>
+        <div id="d4d3">
+            <h1>Adding a Property to an Object</h1>
+            <p>Adding a property to a created object is easy:</p>
+        </div>
+        <div id="d4d9" >
+            <h3>Example</h3>
+            <div class="d4d9" style="border-left: 3px solid green;">
+                <p>
+                    myFather.nationality = <span id="sp3"> "English"</span>;
+                </p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_myfirst" target="_blank" id="d4b5">Try it
+                Yourself</a>
+        </div>
+        <hr>
+        <div id="d4d7">
+            <h3>Note:</h3>
+            <p>The new property will be added to <b> myFather</b>. Not to any other <b>Person Objects</b> .</p>
+        </div>
+        <hr>
+        <div id="d4d3">
+            <h1>Adding a Property to a Constructor</h1>
+            <p>You can <b> NOT</b> add a new property to an object constructor:</p>
+        </div>
+        <div id="d4d9">
+            <h3>Example</h3>
+            <div class="d4d9" style="border-left: 3px solid green;">
+                <p>
+                    Person.nationality = <span id="sp3"> "English"</span>;
+                </p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_myfirst" target="_blank" id="d4b5">Try it
+                Yourself</a>
+        </div>
+        <div id="d4d3">
+            <p>To add a new property, you must add it to the constructor function prototype:</p>
+        </div>
+        <div id="d4d9">
+            <h3>Example</h3>
+            <div class="d4d9" style="border-left: 3px solid green;">
+                <p>
+                    Person.prototype.nationality =<span id="sp3"> "English"</span>;
+                </p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_myfirst" target="_blank" id="d4b5">Try it
+                Yourself</a>
+        </div>
+        <hr>
+        <div id="d4d3">
+            <h1>Constructor Function Methods</h1>
+            <p>A constructor function can also have <b> methods</b>:</p>
+        </div>
+        <div id="d4d10">
+            <h3>Example</h3>
+            <div class="d4d4" style="border-left: 3px solid green;">
+                <p>
+                    <span id="sp1">function</span> Person(first, last, age, eyecolor) { <br>
+                    <span id="sp1"> this</span>.firstName = first;<br>
+                    <span id="sp1"> this</span>.lastName = last;<br>
+                    <span id="sp1"> this</span>.age = age;<br>
+                    <span id="sp1"> this</span>.eyeColor = eyecolor;<br>
+                    <span id="sp1"> this</span>.fullName = function() {<br>
+                    <span id="sp1"> return this</span>.firstName + " " + this.lastName;<br>
+                    };<br>
+                    }<br>
+                </p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_myfirst" target="_blank" id="d4b5">Try it
+                Yourself</a>
+        </div>
+        <hr>
+        <div id="d4d3">
+            <h1>Adding a Method to an Object</h1>
+            <p>Adding a method to a created object is easy:</p>
+        </div>
+        <div id="d4d11">
+            <h3>Example</h3>
+            <div class="d4d4" style="border-left: 3px solid green;">
+                <h2>Example</h2>
+                <p>
+                    myMother.changeName = <span id="sp1"> function </span>(name) { <br>
+                    <span id="sp1"> this</span>.lastName = name;<br>
+                    }<br>
+
+                </p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_myfirst" target="_blank" id="d4b5">Try it
+                Yourself</a>
+        </div>
+        <div id="d4d7">
+            <h3>Note:</h3>
+            <p>The new property will be added to <b> myMother.</b>. Not to any other <b>Person Objects</b> .</p>
+        </div>
+        <hr>
+        <div id="d4d3">
+            <h1>Adding a Method to a Constructor</h1>
+            <p>You cannot add a new method to an object constructor function. <br> <br>
+                This code will produce a TypeError:</p> <br>
+        </div>
+        <div id="d4d12">
+            <h3>Example</h3>
+            <div class="d4d4" style="border-left: 3px solid green;">
+                <p>
+                    Person.changeName = <span id="sp1"> function</span> (name) { <br>
+                    <span id="sp1"> this</span>.lastName = name;<br>
+                    }<br><br>
+                    myMother.changeName( <span id="sp3"> "Doe"</span> );<br>
+                </p>
+            </div>
+            <span id="sp2"> TypeError: myMother.changeName is not a function</span>
+        </div>
+        <div id="d4d3">
+            <p>
+                Adding a new method must be done to the constructor function prototype:
+            </p>
+        </div>
+        <div id="d4d13">
+            <h3>Example</h3>
+            <div class="d4d4" style="border-left: 3px solid green;">
+                <p>
+                    Person.prototype.changeName = <span id="sp1"> function</span> (name) {<br>
+                    <span id="sp1"> this</span> .lastName = name;<br>
+                    }<br> <br>
+                    myMother.changeName( <span id="sp3"> "Doe"</span> );<br>
+                </p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_myfirst" target="_blank" id="d4b5">Try it
+                Yourself</a>
+        </div>
+        <div id="d4d7">
+            <h3>Note:</h3>
+            <p>The changeName() function assigns the value of<span id="sp3"> name </span>to the person's<span id="sp3">
+                    lastName</span> property, substituting <span id="sp3">this</span>
+                with myMother.</p>
+        </div>
+        <hr>
+        <div id="d4d3">
+            <h1>Built-in JavaScript Constructors</h1>
+            <p>JavaScript has built-in constructors for all native objects:</p>
+        </div>
+        <div id="d4d4">
+
+
+
+
+            <div class="d4d4"style="border-left: 3px solid green;">
+                <p>
+                    <span id="sp1"> new </span>Object() <span id="sp4"> // A new Object object</span> <br>
+                    <span id="sp1"> new</span> Array() <span id="sp4"> // A new Array object</span><br>
+                    <span id="sp1"> new</span> Map() <span id="sp4"> // A new Map object</span><br>
+                    <span id="sp1"> new </span>Set() <span id="sp4"> // A new Set object</span><br>
+                    <span id="sp1">new </span>Date() <span id="sp4"> // A new Date object</span><br>
+                    <span id="sp1">new</span> RegExp() <span id="sp4"> // A new RegExp object</span><br>
+                    <span id="sp1">new</span> Function() <span id="sp4"> // A new Function object</span><br>
+                </p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_myfirst" target="_blank" id="d4b5">Try it
+                Yourself</a>
+        </div>
+        <div id="d4d7">
+            <h3>Note:</h3>
+            <p>The<span id="sp2"> Math()</span> object is not in the list.<span id="sp2"> Math</span> is a global
+                object. The<span id="sp2"> new </span>keyword cannot be used on <span id="sp2"> Math</span>.</p>
+        </div><hr>
+        <div id="d4d3">
+            <h1>Did You Know?</h1>
+            <p>Use object literals<span id="sp2">  {}</span> instead of<span id="sp2">  new  Object()</span>.<br><br>
+                Use array literals<span id="sp2">  []</span> instead of<span id="sp2">  new  Array()</span>. <br><br>
+                Use pattern literals<span id="sp2">  /()/</span> instead of<span id="sp2">  new RegExp()</span>.<br><br>
+                Use function expressions<span id="sp2">  () {}</span> instead of<span id="sp2">  new Function()</span>.<br><br></p>
+        </div>
+        <div id="d4d14">
+            <h3>Example</h3>
+            <div class="d4d4" style="border-left: 3px solid green;">
+                <p>
+                    <span id="sp3">    ""</span>     ;        <span id="sp4">    // primitive string </span>   <br>
+                        <span id="sp2">      0</span>     ;         <span id="sp4">   // primitive number</span>   <br>
+                            <span id="sp1">     false</span>     ;    <span id="sp4">     // primitive boolean</span>   <br><br>                  
+                    {};        <span id="sp4">     // object object</span> <br>
+                    [];       <span id="sp4">      // array object</span> <br>
+                    <span id="sp2">     /()/   </span>     <span id="sp4">    // regexp object</span>   <br>
+                        <span id="sp1">     function</span> (){}  <span id="sp4">    ; // function</span>   <br>
+                    
+                </p>
+            </div>
+            <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_myfirst" target="_blank" id="d4b5">Try it
+                Yourself</a>
+        </div><hr>
+        <div id="d4d7">
+            <h2>Complete Object Reference</h2>
+            <p>For a complete reference, go to our:</p>
+            <a href="#">Complete JavaScript Object Reference.</a>
+            <p>The reference contains descriptions and examples of all Object Properties and Methods.</p>
+          
+        </div> <hr>
+        <div id="d4d1">
+            <h1>JavaScript Object Constructors</h1>
+            <input type="button" value="< Previous" href="main.html" id="d4b1">
+            <input type="button" value="Next >" href="" id="d4b2">
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+       
+
+    </div>
+
+</body>
+
+</html>
